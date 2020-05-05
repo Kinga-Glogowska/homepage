@@ -1,0 +1,1 @@
+console.log('Jestem super Kinią programistką');
