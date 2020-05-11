@@ -1,49 +1,44 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet"
-type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-    <header>
-        <h1> Kinia uczy i bawi blaba bla bla </h1>
-        <nav>
-            <a href="index.html">Strona główna </a>
-            <a href="nauka-html.html">HTML</a>
-        </nav>
+  <body>
+     <header class="header-site">
+      <h1 class="header-site__title">Kinia uczy i bawi</h1>
+      <nav class="header-site__navigation">
+        <a href="index.html" class="header-site__navigation-homepage">Strona główna </a>
+        <a href="nauka-html.html" class="header-site__navigation-link">HTML</a>
+      </nav>
     </header>
     <main>
-        <header>
-            <h2> Kinga Głogowska </h2>
-        </header>
+      <header class="article-header">
+        <h2 class="article-header__title article-header--js">Kinga Głogowska</h2>
+      </header>
 
-        <section>
-            <h3>Kim jestem?</h3>
-            <p>Jestem przyszłą programistką</p>
-            <img src="Maja-Mencel-2.jpg" alt="Kot nekromanta">
-        </section>
-        <section>
-            <h3>Notatki z WTF: co ten frontend</h3>
-            <h5>Do czego używa się HTML?</h5>
-            <p>Do opakowywania treści </p>
-            <h5>Do czego używa się CSS?</h5>
-            <p>Do stylowania</p>
-        </section>
-
-       
+      <section class="section">
+        <h3 class="section__title">Kim jestem?</h3>
+        <p class="section__content">Jestem przyszłą programistką</p>
+        <img class="image" src="Maja-Mencel-2.jpg" alt="Kot nekromanta" />
+      </section>
+      <section class="section">
+        <h3 class="section__title" >Notatki z WTF: co ten frontend</h3>
+        <h4 class="section__subtitle">Do czego używa się HTML?</h4>
+        <p class="section__content">Do opakowywania treści</p>
+        <h4 class="section__subtitle">Do czego używa się CSS?</h4class="section__subtitle">
+        <p class="section__content"> Do stylowania</p>
+      </section>
     </main>
 
     <footer>
-        Tak naprawdę to jestem najewiększym pidździakiem na świecie.
+      Tak naprawdę to jestem najewiększym pidździakiem na świecie.
     </footer>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

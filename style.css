@@ -2,15 +2,49 @@ body {
     background-color: #e5fcf5;
 }
 
+main{
+    width: 1000px;
+   margin: 0 auto;
+}
 
-h1 {
-    color: #5e0a2c; 
-    background-color:#b3dec1;
+
+
+
+.header-site {
     margin: 0 auto;
-    padding: 5%;
+    background-color:#b3dec1;
+    padding: 2%;
+    position: sticky;
+    bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
+.header-site__title{
+ 
+   color: #5e0a2c; 
 }
-h4 {
-    color: #210124;
+
+.header-site__navigation
+.header-site__navigation-homepage
+.header-site__navigation-link
+
+
+.article-header
+
+.article-header__title{
+color: #210124;
 }
+
+.section
+.section__article
+.section__title
+.section__content
+.section__content-list
+.section__content-links
+.section__subtitle
+.image
+
+.additional
+.additional__link
+.footer
