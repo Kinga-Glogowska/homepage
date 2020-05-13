@@ -8,7 +8,7 @@ console.log(heading);
 
 heading.innerHTML = "blabalblabla";
 
-//adding greet function
+//greet function
 
 function invitation(firstName, secondName) {
   return `hello my name is ${firstName} ${secondName}`;
@@ -19,3 +19,15 @@ const secondName = "Głogowska";
 
 greet = invitation(firstName, secondName);
 console.log(greet);
+
+//arrow function
+const invitationArrow= (firstName, secondName) => {
+  return `hello my name is ${firstName} ${secondName}`;
+}
+
+greeting = invitationArrow("kinga", "Glogowska");
+console.log(greeting);
+
+
+//adding a function using html content
+
