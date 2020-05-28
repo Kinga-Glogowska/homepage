@@ -1,31 +1,20 @@
 html {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-*, *:before, *after: {
-  box-sizing: inherit;
-}
+*, *:before, *:after {
+  box-sizing: inherit; }
 
 body {
-  background: rgb(197, 252, 243);
-  background: linear-gradient(
-    118deg,
-    rgba(197, 252, 243, 0.9799554565701559) 9%,
-    rgba(255, 255, 255, 1) 58%
-  );
+  background: #c5fcf3;
+  background: linear-gradient(118deg, rgba(197, 252, 243, 0.979955) 9%, white 58%);
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-areas:
-    "header-site header-site"
-    "main about-me "
-    "footer footer";
-
+  grid-template-areas: "header-site header-site" "main about-me " "footer footer";
   grid-template-columns: 5fr 200px;
   column-gap: 16px;
-  row-gap: 16px;
-}
+  row-gap: 16px; }
 
 .header-site {
   margin: 0 auto;
@@ -34,77 +23,52 @@ body {
   bottom: 20px;
   border-radius: 10px;
   grid-area: header-site;
-  grid-column-start: span 2;
-}
+  grid-column-start: span 2; }
+  .header-site__title {
+    color: #5e0a2c; }
 
 .main {
   grid-area: main;
   background-color: azure;
-  border-style: ridge;
-}
+  border-style: ridge; }
 
 .about-me {
   grid-area: about-me;
-  border-style: double;
-}
+  border-style: double; }
+  .about-me__picture {
+    max-width: 200px; }
 
 .footer {
-  grid-area: footer;
-}
-
-.header-site__title {
-  color: #5e0a2c;
-}
+  grid-area: footer; }
 
 .article-header__title {
-  color: #210124;
-}
-
-.about-me__picture {
-  max-width: 200px;
-}
+  color: #210124; }
 
 .section__subtitle::before {
   content: "";
   display: inline-block;
   background-color: blue;
-  width:10px;
+  width: 10px;
   height: 10px;
-  border-radius: 50%;
-}
-
-
-
-
+  border-radius: 50%; }
 
 @media screen and (max-width: 600px) {
   body {
     background: blueviolet;
     max-width: 400px;
-    display: block;
-  }
-  .header-site{
+    display: block; }
+  .header-site {
     min-height: 60px;
     position: sticky;
     top: 0em;
-    width: 100%;
-  }
-
-  .header-site__navigation {
-    display: none;
-    flex-direction: column;
-  }
-  .header-site__navigation-link{
-    display: block;
-  }
-
+    width: 100%; }
+    .header-site__navigation {
+      display: none;
+      flex-direction: column; }
+  .header-site
+.header-site__navigation-link {
+    display: block; }
   .navigation--open {
-    display:block;
-    
-  }
-  .hamburger{
-    display:block;
-  }
-}
-
-
+    display: block; }
+  .hamburger {
+    display: block; } }
