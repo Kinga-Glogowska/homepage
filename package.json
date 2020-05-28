@@ -1,0 +1,26 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "sass": " npx node-sass-w scss/main.scss main.css"
+    "cow": "cowsay Wojciu jest super!",
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kinga-Glogowska/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kinga-Glogowska/homepage/issues"
+  },
+  "homepage": "https://github.com/Kinga-Glogowska/homepage#readme",
+  "devDependencies": {
+    "cowsay": "^1.4.0",
+    "node-sass": "^4.14.1"
+  }
+}

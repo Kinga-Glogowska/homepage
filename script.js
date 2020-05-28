@@ -4,9 +4,9 @@ console.log("Jestem super Kinią programistką");
 
 const heading = document.querySelector(".article-header--js");
 
-console.log(heading);
+// console.log(heading);
 
-heading.innerHTML = "blabalblabla";
+// heading.innerHTML = "blabalblabla";
 
 //greet function
 
@@ -32,7 +32,19 @@ console.log(greeting);
 
 const createContent = (querySelectorContent, content) => {
   const element = document.querySelector(querySelectorContent);
-  element.innerHTML = content;
+  if (element != null) {
+    element.innerHTML = content;
+  }
 };
 
 createContent(".header-site__title--js", "Witaj świecie");
+
+//hamburger menu
+
+const hamburger = document.querySelector(".hamburger--js");
+
+console.log(hamburger);
+hamburger.addEventListener("click", () => {
+  const navigation = document.querySelector(".navigation--js");
+  navigation.classList.replace("header-site__navigation", "navigation--open");
+});
